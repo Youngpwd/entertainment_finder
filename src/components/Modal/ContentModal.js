@@ -76,6 +76,7 @@ const ContentModal = ({ children, media_type, id }) => {
         BackdropProps={{
           timeout: 500,
         }}
+        sx={{width: "80%", margin:"auto"}}
       >
         <Fade in={open}>
           {content && (
