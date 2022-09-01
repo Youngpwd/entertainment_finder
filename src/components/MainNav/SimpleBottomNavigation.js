@@ -31,6 +31,7 @@ const SimpleBottomNavigation = () => {
         backgroundColor: "#30638E",
         zIndex: 100,
         borderTop: "5px solid #EDAE49",
+        boxShadow: "10px 0px 5px black",
         margin: "auto",
       }}
     >
@@ -44,9 +45,9 @@ const SimpleBottomNavigation = () => {
           backgroundColor: "#30638E",
           display: "flex",
           justifyContent: "space-evenly",
-          "& .Mui-selected" : {
-            color: "#EDAE49",
-          }
+          "& .Mui-selected": {
+            color: "#EDAE49 !important",
+          },
         }}
       >
         <BottomNavigationAction
