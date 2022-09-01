@@ -29,6 +29,20 @@
   color: white;
 }
 
+.movies,
+.series,
+.search,
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h2 {
+  color: white;
+}
+
 @media (max-width: 1000px) {
   .pageTitle {
     font-size: 6.4vw;
