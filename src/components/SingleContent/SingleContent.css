@@ -5,7 +5,7 @@
   height: auto;
   padding: 5px;
   margin: 5px 0;
-  background-color: var(--darkgrey);
+  background-color: #183146;
   border-radius: 10px;
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -14,7 +14,7 @@
 }
 
 .media:hover {
-  background-color: white;
+  background-color: var(--highlight-gold);
   color: black;
 }
 
@@ -72,13 +72,13 @@
     display: none;
   }
   .media {
-    width: 25vw;
+    width: 40%;
     margin: 0.6rem 0.5rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 312px) {
   .media {
-    width: 40%;
+    width: 35%;
   }
 }
