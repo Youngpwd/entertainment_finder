@@ -1,6 +1,7 @@
 import { Chip } from "@mui/material";
 import axios from "axios";
 import React, { useEffect } from "react";
+import "./Genres.css";
 
 const Genres = ({
   type,
@@ -39,7 +40,7 @@ const Genres = ({
   }, [type]);
 
   return (
-    <div style={{ padding: "6px 0" }}>
+    <div style={{ padding: "6px 0" }} className="genres">
       {selectedGenres &&
         selectedGenres.map((genre) => (
           <Chip
