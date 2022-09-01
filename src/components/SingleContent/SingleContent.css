@@ -1,0 +1,84 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: var(--darkgrey);
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2px 3px;
+}
+
+@media screen and (max-width: 475px) {
+  .media {
+    flex-direction: column;
+    /* width: 40%; */
+  }
+  .title {
+    font-size: 0.8rem;
+  }
+  .subTitle {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .media {
+    width: 45%;
+  }
+  .title {
+    font-size: 0.6rem;
+  }
+  .subTitle {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .title,
+  .subTitle {
+    display: none;
+  }
+  .media {
+    width: 25vw;
+    margin: 0.6rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .media {
+    width: 40%;
+  }
+}
