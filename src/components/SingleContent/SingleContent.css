@@ -45,6 +45,7 @@
   .media {
     flex-direction: column;
     /* width: 40%; */
+    max-height: fit-content;
   }
   .title {
     font-size: 0.8rem;
