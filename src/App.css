@@ -9,13 +9,13 @@
   min-height: 90vh;
   background-color: var(--main-bg-color);
   color: white;
-  padding-top: 130px;
-  padding-bottom: 70px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 @media (max-width: 700px) {
   .app-container {
-    padding-top: 70px;
+    padding-top: 5rem;
   }
 }
 
@@ -23,7 +23,7 @@
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2rem;
   padding: 4px;
   border-radius: 50px;
   color: white;
@@ -45,6 +45,6 @@ h2 {
 
 @media (max-width: 1000px) {
   .pageTitle {
-    font-size: 6.4vw;
+    font-size: 1.3rem;
   }
 }
