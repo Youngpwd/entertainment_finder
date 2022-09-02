@@ -52,6 +52,7 @@ const Genres = ({
             style={{ margin: 2, padding: 15 }}
             clickable
             onDelete={() => handleRemove(genre)}
+            sx={{ backgroundColor: "#d1495b" }}
           />
         ))}
       {genres &&
@@ -65,6 +66,7 @@ const Genres = ({
             style={{ margin: 2, color: "white", padding: 2 }}
             clickable
             onClick={() => handleAdd(genre)}
+            sx={{ fontFamily: "'Lato', sans-serif" }}
           />
         ))}
     </div>
