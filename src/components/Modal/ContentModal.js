@@ -23,10 +23,10 @@ const style = {
   width: "90%",
   height: "80%",
   transform: "translate(-50%, -50%)",
-  bgcolor: "rgb(46, 44, 44);",
+  bgcolor: "#003d5b",
   border: "2px solid #000",
   boxShadow: 24,
-  p: 4,
+  p: 2,
   color: "white",
 };
 
@@ -76,7 +76,7 @@ const ContentModal = ({ children, media_type, id }) => {
         BackdropProps={{
           timeout: 500,
         }}
-        sx={{width: "80%", margin:"auto"}}
+        sx={{ width: "80%", margin: "auto", height: "80%" }}
       >
         <Fade in={open}>
           {content && (
@@ -121,11 +121,11 @@ const ContentModal = ({ children, media_type, id }) => {
                   <Button
                     variant="contained"
                     startIcon={<YouTubeIcon />}
-                    sx={{ backgroundColor: "red", fontWeight: "700" }}
+                    sx={{ backgroundColor: "#d1495b", fontWeight: "700" }}
                     target="_blank"
                     href={`https://www.youtube.com/watch?v=${video}`}
                   >
-                    Watch the Trailer
+                    <div className="button-text">Watch the Trailer</div>
                   </Button>
                 </div>
               </div>
