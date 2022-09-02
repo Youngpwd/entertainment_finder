@@ -1,8 +1,7 @@
 .media {
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: auto;
+  width: 20%;
   padding: 5px;
   margin: 5px 0;
   background-color: #183146;
@@ -26,6 +25,7 @@
 
 .poster {
   border-radius: 10px;
+  height: auto;
 }
 
 .title {
