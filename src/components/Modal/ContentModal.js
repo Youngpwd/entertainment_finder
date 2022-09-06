@@ -94,7 +94,7 @@ const ContentModal = ({ children, media_type, id }) => {
                 <img
                   className="ContentModal__landscape"
                   src={
-                    content.poster_path
+                    content.backdrop_path
                       ? `${img_500}/${content.backdrop_path}`
                       : unavailableLandscape
                   }
