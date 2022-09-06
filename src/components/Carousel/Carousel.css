@@ -9,3 +9,10 @@
   margin-bottom: 5px;
   box-shadow: 0px 0px 5px black;
 }
+
+@media screen and (max-width: 450px) {
+  .carouselItem__txt {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
