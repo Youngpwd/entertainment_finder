@@ -1,6 +1,7 @@
 .media {
   display: flex;
   flex-direction: column;
+  max-height: 439px;
   width: 20%;
   padding: 5px;
   margin: 5px 0;
@@ -19,7 +20,8 @@
 
 @media screen and (max-width: 550px) {
   .media {
-    width: 46%;
+    width: 30%;
+    max-height: 320px;
   }
 }
 
@@ -54,6 +56,10 @@
   }
   .subTitle {
     font-size: 0.7rem;
+  }
+
+  .poster {
+    max-height: 231px;
   }
 }
 
