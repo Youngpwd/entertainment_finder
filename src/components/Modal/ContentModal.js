@@ -12,6 +12,7 @@ import {
 import "./ContentModal.css";
 import { Button } from "@mui/material";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import Carousel from "../Carousel/Carousel";
 
 const style = {
   position: "absolute",
@@ -76,7 +77,7 @@ const ContentModal = ({ children, media_type, id }) => {
         BackdropProps={{
           timeout: 500,
         }}
-        sx={{ width: "80%", margin: "auto", height: "80%" }}
+        sx={{ width: "80%", margin: "auto", height: "100%" }}
       >
         <Fade in={open}>
           {content && (
@@ -117,7 +118,9 @@ const ContentModal = ({ children, media_type, id }) => {
                   <span className="ContentModal__description">
                     {content.overview}
                   </span>
-                  <div></div>
+                  <div>
+                    <Carousel media_type={media_type} id={id} />
+                  </div>
                   <Button
                     variant="contained"
                     startIcon={<YouTubeIcon />}
