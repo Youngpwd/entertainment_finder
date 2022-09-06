@@ -13,8 +13,9 @@
 }
 
 .tagline {
-  padding-bottom: 10px;
+  padding: 10px;
   align-self: center;
+  margin-top: 1.5rem;
 }
 
 .ContentModal {
@@ -57,7 +58,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .ContentModal__description {
