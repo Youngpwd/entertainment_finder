@@ -25,7 +25,7 @@
 
 .poster {
   border-radius: 10px;
-  height: auto;
+  /* height: auto; */
 }
 
 .title {
@@ -44,8 +44,8 @@
 @media screen and (max-width: 475px) {
   .media {
     flex-direction: column;
-    /* width: 40%; */
-    max-height: fit-content;
+    width: 40%;
+    /* max-height: fit-content; */
   }
   .title {
     font-size: 0.8rem;

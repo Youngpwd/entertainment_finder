@@ -8,7 +8,7 @@
 .ContentModal__portrait {
   display: none;
   object-fit: contain;
-  height: 90%;
+  /* height: 90%; */
   margin: auto 0;
 }
 
@@ -22,7 +22,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 90%;
+  height: 100%;
   width: 100%;
   overflow-y: scroll;
   scrollbar-width: none;
@@ -54,11 +54,12 @@
 }
 
 .ContentModal__title {
-  height: fit-content;
+  height: 12%;
   font-size: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 1rem;
 }
 
 .ContentModal__description {
@@ -70,7 +71,8 @@
   scrollbar-width: thin; /* Firefox */
   box-shadow: inset 0 0 5px #000000;
   text-align: justify;
-  height: fit-content;
+  /* height: fit-content; */
+  height: 40% ;
   background-color: #183146;
 }
 
@@ -98,6 +100,7 @@
   }
   .ContentModal__title {
     font-size: 3.5vw;
+    text-align: center;
   }
   .ContentModal__description {
     font-size: 22px;
@@ -107,7 +110,7 @@
 @media screen and (max-width: 470px) {
   .MuiBox-root.css-16ta1ge {
     padding: 0.5rem;
-    height: auto;
+    /* height: auto; */
   }
   .ContentModal__about {
     justify-content: space-between;
