@@ -26,6 +26,8 @@
 .poster {
   border-radius: 10px;
   /* height: auto; */
+  max-height: 346px;
+  width: auto;
 }
 
 .title {
